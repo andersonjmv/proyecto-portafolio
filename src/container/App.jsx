@@ -18,6 +18,7 @@ export default class App extends Component {
     render() {
         return (
             <div>
+                <Aside />
                 <Main>
                     <GlobalStyle />
                 </Main>
