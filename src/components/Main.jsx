@@ -7,15 +7,15 @@ import Informacion from '../components/Informacion'
 const StyledMain = styled.div`
 display: grid;
 justify-content: center;
-padding: 5em;
+padding: 4em;
 `;
 
 // Styled del container
 const ContainerMain = styled.div`
 display: grid;
 grid-template-columns: 1fr 3fr;
-grid-gap: 2rem;
-gid-row-gap: 0.5em;   
+grid-gap: 3rem;
+grid-row-gap: 0.5em;   
 `;
 
 

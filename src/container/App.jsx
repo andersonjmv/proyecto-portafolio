@@ -5,7 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 // El estilo global de la App
 const GlobalStyle = createGlobalStyle`
     body{
-        font-family: 'Lato', sans-serif;
+        font-family: 'Nunito';
         margin: 0;
         padding: 0;
         background: #F5F5F5;
