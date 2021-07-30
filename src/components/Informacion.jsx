@@ -14,17 +14,14 @@ export default class Informacion extends Component {
         return (
             <div>
                 <div className="informacion-container">
-<<<<<<< HEAD
                     <Estudios /> 
                     <Experiencia />
                     {/* <Certificaciones /> */}
                     {/* <Habilidades /> */}
-=======
                     {/* <Estudios /> */}
                     {/* <Experiencia /> */}
                     {<Certificaciones />}
                     {<Habilidades />}
->>>>>>> origin/JaiderCarvajal
                 </div>
             </div>
         )
