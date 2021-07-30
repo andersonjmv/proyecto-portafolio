@@ -8,7 +8,7 @@ export default class Certificaciones extends Component {
         return (
             <div>
                 <Title>Certificaciones</Title>
-                <SubTitle>Google Cloud PlatForm<SubTitle>
+                <SubTitle>Google Cloud PlatForm</SubTitle>
             </div>
         )
     }
