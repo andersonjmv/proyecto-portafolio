@@ -14,11 +14,7 @@ padding: 4em;
 const ContainerMain = styled.div`
 display: grid;
 grid-template-columns: 1fr 3fr;
-<<<<<<< HEAD
 grid-gap: 3rem;
-=======
-grid-gap: 2rem;
->>>>>>> jorge
 grid-row-gap: 0.5em;   
 `;
 
