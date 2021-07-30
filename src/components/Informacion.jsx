@@ -16,12 +16,8 @@ export default class Informacion extends Component {
                 <div className="informacion-container">
                     <Estudios /> 
                     <Experiencia />
-                    {/* <Certificaciones /> */}
-                    {/* <Habilidades /> */}
-                    {/* <Estudios /> */}
-                    {/* <Experiencia /> */}
-                    {<Certificaciones />}
-                    {<Habilidades />}
+                    <Certificaciones />
+                    <Habilidades />
                 </div>
             </div>
         )
