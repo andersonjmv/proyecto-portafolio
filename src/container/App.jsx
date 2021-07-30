@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Main from '../components/Main';
 import { createGlobalStyle } from 'styled-components';
 
+
 // El estilo global de la App
 const GlobalStyle = createGlobalStyle`
     body{
@@ -18,7 +19,7 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <Aside />
+              
                 <Main>
                     <GlobalStyle />
                 </Main>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Informacion from '../components/Informacion'
-
+import Aside from '../components/Aside';
 
 // Styled del grid de la App
 const StyledMain = styled.div`
@@ -15,7 +15,7 @@ const ContainerMain = styled.div`
 display: grid;
 grid-template-columns: 1fr 3fr;
 grid-gap: 2rem;
-gid-row-gap: 0.5em;   
+grid-row-gap: 0.5em;   
 `;
 
 
@@ -27,7 +27,7 @@ export default class Main extends Component {
             <div>
                 <StyledMain>
                 <ContainerMain>
-                   {/* <Aside /> */}
+                  <Aside />
                     <Informacion />
                 </ContainerMain>
             </StyledMain>
