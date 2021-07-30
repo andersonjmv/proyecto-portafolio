@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 
 
+import Certificaciones from '../components/Certificaciones'
+import Habilidades from '../components/Habilidades'
+
 //! A TENER EN CUENTA
 //* Los componentes deben importarse en el mismo orden en que estan renderizados ↓↓↓.
 
@@ -12,8 +15,8 @@ export default class Informacion extends Component {
                 <div className="informacion-container">
                     {/* <Estudios /> */}
                     {/* <Experiencia /> */}
-                    {/* <Certificaciones /> */}
-                    {/* <Habilidades /> */}
+                    {<Certificaciones />}
+                    {<Habilidades />}
                 </div>
             </div>
         )
